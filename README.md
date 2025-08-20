@@ -14,3 +14,14 @@ The system supports:
 - **Build Tool:** Maven
 - **Server:** Embedded Tomcat
 - **Frontend (planned):** JSF (Jakarta Faces)
+
+
+## Structure
+├── entity/ # JPA Entities (Student, Course, Enrollment, Instructor, etc.)
+├── repository/ # Spring Data JPA repositories
+├── service/ # Business logic
+├── controller/ # REST controllers (currently used)
+├── config/ # Spring + JPA configuration
+└── CourseManagementApplication.java
+src/main/resources/
+├── application.properties # Database configs
