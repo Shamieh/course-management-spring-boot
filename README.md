@@ -17,6 +17,7 @@ The system supports:
 
 
 ## Structure
+```
 ├── entity/ # JPA Entities (Student, Course, Enrollment, Instructor, etc.)
 ├── repository/ # Spring Data JPA repositories
 ├── service/ # Business logic
