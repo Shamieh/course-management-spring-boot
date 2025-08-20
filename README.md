@@ -21,7 +21,6 @@ The system supports:
 ├── entity/ # JPA Entities (Student, Course, Enrollment, Instructor, etc.)
 ├── repository/ # Spring Data JPA repositories
 ├── service/ # Business logic
-├── controller/ # REST controllers (currently used)
 ├── config/ # Spring + JPA configuration
 └── CourseManagementApplication.java
 src/main/resources/
